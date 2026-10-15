@@ -1,0 +1,10 @@
+{
+  "name": "GameCore.Foundation",
+  "rootNamespace": "GameCore",
+  "references": [
+    "UniTask",
+    "VContainer",
+    "uPools"
+  ],
+  "autoReferenced": true
+}

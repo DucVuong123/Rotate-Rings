@@ -1,0 +1,15 @@
+{
+  "name": "com.annulusgames.u-pools",
+  "version": "1.0.1",
+  "displayName": "uPools",
+  "description": "Object Pooling for Unity",
+  "unity": "2019.4",
+  "author": {
+    "name": "Annulus Games",
+    "url": "https://github.com/AnnulusGames"
+  },
+  "publishConfig": {
+    "registry": "https://package.openupm.com"
+  },
+  "_fingerprint": "2ce0923d00b2957b67a97e837f77e28851f2509f"
+}
