@@ -1,0 +1,762 @@
+{
+    "version": 2,
+    "name": "Rocket",
+    "tubeRadius": 0.07999999821186066,
+    "clipHalfSize": 0.10000000149011612,
+    "pieces": [
+        {
+            "id": "Core",
+            "shape": "arc",
+            "color": "#FF8C1F",
+            "position": {
+                "x": 0.0,
+                "y": 1.375
+            },
+            "rotation": 0.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.8600000143051148,
+                "sweep": 360.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "Inner",
+            "shape": "arc",
+            "color": "#4CB8F2",
+            "position": {
+                "x": 0.0,
+                "y": 1.375
+            },
+            "rotation": 90.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.41999998688697817,
+                "sweep": 260.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "TopArc",
+            "shape": "arc",
+            "color": "#8F42F2",
+            "position": {
+                "x": 0.0,
+                "y": 4.659999847412109
+            },
+            "rotation": 90.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 2.0,
+                "sweep": 48.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "Arch",
+            "shape": "arc",
+            "color": "#2952E6",
+            "position": {
+                "x": 0.0,
+                "y": -1.590000033378601
+            },
+            "rotation": -90.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 1.875,
+                "sweep": 46.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "LeftHull",
+            "shape": "arc",
+            "color": "#ED3833",
+            "position": {
+                "x": 1.8300000429153443,
+                "y": 2.0
+            },
+            "rotation": -12.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 3.125,
+                "sweep": 73.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "RightHull",
+            "shape": "arc",
+            "color": "#78CC29",
+            "position": {
+                "x": -1.8300000429153443,
+                "y": 2.0
+            },
+            "rotation": -168.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 3.125,
+                "sweep": 73.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "LeftFinArc",
+            "shape": "arc",
+            "color": "#8F42F2",
+            "position": {
+                "x": -1.1399999856948853,
+                "y": -0.5
+            },
+            "rotation": -44.5,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 1.2400000095367432,
+                "sweep": 59.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "LeftFinBar",
+            "shape": "bar",
+            "color": "#ED3833",
+            "position": {
+                "x": -2.5,
+                "y": 0.75
+            },
+            "rotation": -130.0,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 0.634113609790802,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "LeftWingArc",
+            "shape": "arc",
+            "color": "#78CC29",
+            "position": {
+                "x": -1.850000023841858,
+                "y": 0.6000000238418579
+            },
+            "rotation": -263.5,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 1.3250000476837159,
+                "sweep": 53.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "LeftWingBar",
+            "shape": "bar",
+            "color": "#2952E6",
+            "position": {
+                "x": -1.7300000190734864,
+                "y": -0.27000001072883608
+            },
+            "rotation": 0.0,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 0.8600001335144043,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "RightFinArc",
+            "shape": "arc",
+            "color": "#0D995C",
+            "position": {
+                "x": 1.1399999856948853,
+                "y": -0.5
+            },
+            "rotation": -135.5,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 1.2400000095367432,
+                "sweep": 59.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "RightFinBar",
+            "shape": "bar",
+            "color": "#40CCF2",
+            "position": {
+                "x": 2.5,
+                "y": 0.75
+            },
+            "rotation": -230.0,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 0.634113609790802,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "RightWingArc",
+            "shape": "arc",
+            "color": "#FF8C1F",
+            "position": {
+                "x": 1.850000023841858,
+                "y": 0.6000000238418579
+            },
+            "rotation": 83.5,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 1.3250000476837159,
+                "sweep": 53.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "RightWingBar",
+            "shape": "bar",
+            "color": "#8F42F2",
+            "position": {
+                "x": 1.7300000190734864,
+                "y": -0.27000001072883608
+            },
+            "rotation": 180.0,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 0.8600001335144043,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "LeftRail",
+            "shape": "bar",
+            "color": "#0D995C",
+            "position": {
+                "x": -0.8985000252723694,
+                "y": -0.125
+            },
+            "rotation": -78.20121002197266,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 1.1492823362350464,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "RightRail",
+            "shape": "bar",
+            "color": "#40CCF2",
+            "position": {
+                "x": 0.8985000252723694,
+                "y": -0.125
+            },
+            "rotation": -101.79878997802735,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 1.1492823362350464,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "TBar",
+            "shape": "bar",
+            "color": "#ED3833",
+            "position": {
+                "x": -0.004999995231628418,
+                "y": -0.8899999856948853
+            },
+            "rotation": 0.0,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 1.1699999570846558,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "TStem",
+            "shape": "bar",
+            "color": "#78CC29",
+            "position": {
+                "x": 0.0,
+                "y": -1.3799999952316285
+            },
+            "rotation": 0.0,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 0.8999999761581421,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "LeftHook",
+            "shape": "elbow",
+            "color": "#2952E6",
+            "position": {
+                "x": -0.949999988079071,
+                "y": -1.3600000143051148
+            },
+            "rotation": -90.0,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 0.41999998688697817,
+                "length2": 0.20000000298023225,
+                "bendRadius": 0.15000000596046449,
+                "bendAngle": 90.0
+            }
+        },
+        {
+            "id": "RightHook",
+            "shape": "elbow",
+            "color": "#0D995C",
+            "position": {
+                "x": 0.949999988079071,
+                "y": -1.3600000143051148
+            },
+            "rotation": -90.0,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 0.41999998688697817,
+                "length2": 0.20000000298023225,
+                "bendRadius": 0.15000000596046449,
+                "bendAngle": -90.0
+            }
+        },
+        {
+            "id": "RedHook",
+            "shape": "elbow",
+            "color": "#ED3833",
+            "position": {
+                "x": -1.1399999856948853,
+                "y": -2.299999952316284
+            },
+            "rotation": -135.0,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 0.44999998807907107,
+                "length2": 0.25,
+                "bendRadius": 0.15000000596046449,
+                "bendAngle": -45.0
+            }
+        },
+        {
+            "id": "PurpleHook",
+            "shape": "elbow",
+            "color": "#8F42F2",
+            "position": {
+                "x": 1.1399999856948853,
+                "y": -2.299999952316284
+            },
+            "rotation": -45.0,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 0.44999998807907107,
+                "length2": 0.25,
+                "bendRadius": 0.15000000596046449,
+                "bendAngle": 45.0
+            }
+        },
+        {
+            "id": "OrangeRod",
+            "shape": "bar",
+            "color": "#FF8C1F",
+            "position": {
+                "x": -0.29499998688697817,
+                "y": -2.2799999713897707
+            },
+            "rotation": -99.62815856933594,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 1.1360015869140626,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "RedRod",
+            "shape": "bar",
+            "color": "#ED3833",
+            "position": {
+                "x": 0.29499998688697817,
+                "y": -2.2799999713897707
+            },
+            "rotation": -80.3718490600586,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 1.1360015869140626,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "BlueHook",
+            "shape": "elbow",
+            "color": "#2952E6",
+            "position": {
+                "x": -0.8600000143051148,
+                "y": -3.125
+            },
+            "rotation": -118.5,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 0.46000000834465029,
+                "length2": 0.20000000298023225,
+                "bendRadius": 0.15000000596046449,
+                "bendAngle": 60.0
+            }
+        },
+        {
+            "id": "GreenHook",
+            "shape": "elbow",
+            "color": "#78CC29",
+            "position": {
+                "x": 0.8600000143051148,
+                "y": -3.125
+            },
+            "rotation": -61.5,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 0.46000000834465029,
+                "length2": 0.20000000298023225,
+                "bendRadius": 0.15000000596046449,
+                "bendAngle": -60.0
+            }
+        },
+        {
+            "id": "CyanHook",
+            "shape": "elbow",
+            "color": "#40CCF2",
+            "position": {
+                "x": -0.2800000011920929,
+                "y": -4.059999942779541
+            },
+            "rotation": -98.9000015258789,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 0.5199999809265137,
+                "length2": 0.30000001192092898,
+                "bendRadius": 0.15000000596046449,
+                "bendAngle": -90.0
+            }
+        },
+        {
+            "id": "TealHook",
+            "shape": "elbow",
+            "color": "#0D995C",
+            "position": {
+                "x": 0.2800000011920929,
+                "y": -4.059999942779541
+            },
+            "rotation": -81.0999984741211,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 0.5199999809265137,
+                "length2": 0.30000001192092898,
+                "bendRadius": 0.15000000596046449,
+                "bendAngle": 90.0
+            }
+        }
+    ],
+    "links": [
+        {
+            "id": "Core>Inner",
+            "kind": "clip",
+            "ownerId": "Core",
+            "targetId": "Inner",
+            "point": {
+                "x": 0.0,
+                "y": 0.9550000429153442
+            }
+        },
+        {
+            "id": "Core>TopArc",
+            "kind": "clip",
+            "ownerId": "Core",
+            "targetId": "TopArc",
+            "point": {
+                "x": 0.0,
+                "y": 2.6599998474121095
+            }
+        },
+        {
+            "id": "Core>Arch",
+            "kind": "clip",
+            "ownerId": "Core",
+            "targetId": "Arch",
+            "point": {
+                "x": 0.0,
+                "y": 0.2849999666213989
+            }
+        },
+        {
+            "id": "Core>LeftHull",
+            "kind": "clip",
+            "ownerId": "Core",
+            "targetId": "LeftHull",
+            "point": {
+                "x": -1.231862187385559,
+                "y": 1.375
+            }
+        },
+        {
+            "id": "Core>RightHull",
+            "kind": "clip",
+            "ownerId": "Core",
+            "targetId": "RightHull",
+            "point": {
+                "x": 1.231862187385559,
+                "y": 1.375
+            }
+        },
+        {
+            "id": "LeftFinArc>LeftFinBar",
+            "kind": "clip",
+            "ownerId": "LeftFinArc",
+            "targetId": "LeftFinBar",
+            "point": {
+                "x": -2.5041511058807375,
+                "y": 0.7450528740882874
+            }
+        },
+        {
+            "id": "LeftWingArc>LeftWingBar",
+            "kind": "clip",
+            "ownerId": "LeftWingArc",
+            "targetId": "LeftWingBar",
+            "point": {
+                "x": -1.7300000190734864,
+                "y": -0.27000001072883608
+            }
+        },
+        {
+            "id": "RightFinArc>RightFinBar",
+            "kind": "clip",
+            "ownerId": "RightFinArc",
+            "targetId": "RightFinBar",
+            "point": {
+                "x": 2.508603096008301,
+                "y": 0.7397472858428955
+            }
+        },
+        {
+            "id": "RightWingArc>RightWingBar",
+            "kind": "clip",
+            "ownerId": "RightWingArc",
+            "targetId": "RightWingBar",
+            "point": {
+                "x": 1.7300000190734864,
+                "y": -0.27000001072883608
+            }
+        },
+        {
+            "id": "pin10",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "LeftRail",
+            "point": {
+                "x": -0.8985000252723694,
+                "y": -0.125
+            }
+        },
+        {
+            "id": "pin11",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "RightRail",
+            "point": {
+                "x": 0.8985000252723694,
+                "y": -0.125
+            }
+        },
+        {
+            "id": "TBar>TStem",
+            "kind": "clip",
+            "ownerId": "TBar",
+            "targetId": "TStem",
+            "point": {
+                "x": 0.0,
+                "y": -1.3799999952316285
+            }
+        },
+        {
+            "id": "pin13",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "LeftHook",
+            "point": {
+                "x": -0.949999988079071,
+                "y": -1.0600000619888306
+            }
+        },
+        {
+            "id": "pin14",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "RightHook",
+            "point": {
+                "x": 0.949999988079071,
+                "y": -1.0600000619888306
+            }
+        },
+        {
+            "id": "pin15",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "RedHook",
+            "point": {
+                "x": -0.9066547751426697,
+                "y": -2.066654682159424
+            }
+        },
+        {
+            "id": "pin16",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "PurpleHook",
+            "point": {
+                "x": 0.9066547751426697,
+                "y": -2.066654682159424
+            }
+        },
+        {
+            "id": "pin17",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "OrangeRod",
+            "point": {
+                "x": -0.29499998688697817,
+                "y": -2.2799999713897707
+            }
+        },
+        {
+            "id": "pin18",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "RedRod",
+            "point": {
+                "x": 0.29499998688697817,
+                "y": -2.2799999713897707
+            }
+        },
+        {
+            "id": "pin19",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "BlueHook",
+            "point": {
+                "x": -0.6977660059928894,
+                "y": -2.826202154159546
+            }
+        },
+        {
+            "id": "pin20",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "GreenHook",
+            "point": {
+                "x": 0.6977660059928894,
+                "y": -2.826202154159546
+            }
+        },
+        {
+            "id": "pin21",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "CyanHook",
+            "point": {
+                "x": -0.22275717556476594,
+                "y": -3.6944549083709719
+            }
+        },
+        {
+            "id": "pin22",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "TealHook",
+            "point": {
+                "x": 0.22275716066360475,
+                "y": -3.6944549083709719
+            }
+        }
+    ]
+}

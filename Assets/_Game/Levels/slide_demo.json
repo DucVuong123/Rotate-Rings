@@ -1,0 +1,107 @@
+{
+    "version": 2,
+    "name": "Slide Demo",
+    "tubeRadius": 0.07999999821186066,
+    "clipHalfSize": 0.10000000149011612,
+    "pieces": [
+        {
+            "id": "Bar",
+            "shape": "bar",
+            "color": "#2952E6",
+            "position": {
+                "x": 0.0,
+                "y": 1.600000023841858
+            },
+            "rotation": 0.0,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 2.4000000953674318,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "Ring",
+            "shape": "arc",
+            "color": "#FF8C1F",
+            "position": {
+                "x": 0.0,
+                "y": 0.30000001192092898
+            },
+            "rotation": -90.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.6000000238418579,
+                "sweep": 260.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "Elbow",
+            "shape": "elbow",
+            "color": "#78CC29",
+            "position": {
+                "x": 0.800000011920929,
+                "y": -1.399999976158142
+            },
+            "rotation": 180.0,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 1.2000000476837159,
+                "length2": 0.6000000238418579,
+                "bendRadius": 0.25,
+                "bendAngle": -90.0
+            }
+        }
+    ],
+    "links": [
+        {
+            "id": "pin1",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "Bar",
+            "point": {
+                "x": -0.8999999761581421,
+                "y": 1.600000023841858
+            }
+        },
+        {
+            "id": "pin2",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "Bar",
+            "point": {
+                "x": -0.30000001192092898,
+                "y": 1.600000023841858
+            }
+        },
+        {
+            "id": "Bar>Ring",
+            "kind": "clip",
+            "ownerId": "Bar",
+            "targetId": "Ring",
+            "point": {
+                "x": 0.0,
+                "y": 0.9000000357627869
+            }
+        },
+        {
+            "id": "pin4",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "Elbow",
+            "point": {
+                "x": 1.399999976158142,
+                "y": -1.399999976158142
+            }
+        }
+    ]
+}

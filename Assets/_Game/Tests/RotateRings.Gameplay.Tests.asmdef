@@ -1,0 +1,22 @@
+{
+  "name": "RotateRings.Gameplay.Tests",
+  "rootNamespace": "RotateRings.Tests",
+  "references": [
+    "RotateRings.Gameplay",
+    "GameCore.Foundation",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll",
+    "R3.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ]
+}

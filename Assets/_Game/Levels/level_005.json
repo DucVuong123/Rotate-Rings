@@ -1,0 +1,223 @@
+{
+    "version": 2,
+    "name": "Level 5",
+    "tubeRadius": 0.07999999821186066,
+    "clipHalfSize": 0.10000000149011612,
+    "pieces": [
+        {
+            "id": "Purple",
+            "shape": "arc",
+            "color": "#8F42F2",
+            "position": {
+                "x": 0.0,
+                "y": 0.09000000357627869
+            },
+            "rotation": 0.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.6000000238418579,
+                "sweep": 360.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "DarkGreen",
+            "shape": "arc",
+            "color": "#0D995C",
+            "position": {
+                "x": 0.0,
+                "y": 2.25
+            },
+            "rotation": 90.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.6000000238418579,
+                "sweep": 260.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "LightBlue",
+            "shape": "arc",
+            "color": "#4CB8F2",
+            "position": {
+                "x": -1.0399999618530274,
+                "y": 1.1799999475479127
+            },
+            "rotation": 151.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.6000000238418579,
+                "sweep": 260.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "Orange",
+            "shape": "arc",
+            "color": "#FF8C1F",
+            "position": {
+                "x": 1.0399999618530274,
+                "y": 1.1799999475479127
+            },
+            "rotation": 30.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.6000000238418579,
+                "sweep": 260.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "Red",
+            "shape": "arc",
+            "color": "#ED3833",
+            "position": {
+                "x": -1.309999942779541,
+                "y": -0.6600000262260437
+            },
+            "rotation": 210.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.6000000238418579,
+                "sweep": 260.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "Lime",
+            "shape": "arc",
+            "color": "#78CC29",
+            "position": {
+                "x": 1.309999942779541,
+                "y": -0.6299999952316284
+            },
+            "rotation": -32.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.6000000238418579,
+                "sweep": 260.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "Blue",
+            "shape": "arc",
+            "color": "#2952E6",
+            "position": {
+                "x": 0.0,
+                "y": -1.340000033378601
+            },
+            "rotation": 270.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.6000000238418579,
+                "sweep": 260.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        }
+    ],
+    "links": [
+        {
+            "id": "Purple>LightBlue",
+            "kind": "clip",
+            "ownerId": "Purple",
+            "targetId": "LightBlue",
+            "point": {
+                "x": -0.6258091926574707,
+                "y": 0.7458962202072144
+            }
+        },
+        {
+            "id": "Purple>Orange",
+            "kind": "clip",
+            "ownerId": "Purple",
+            "targetId": "Orange",
+            "point": {
+                "x": 0.6258091926574707,
+                "y": 0.7458962202072144
+            }
+        },
+        {
+            "id": "Purple>Red",
+            "kind": "clip",
+            "ownerId": "Purple",
+            "targetId": "Red",
+            "point": {
+                "x": -0.7892987728118897,
+                "y": -0.36188867688179018
+            }
+        },
+        {
+            "id": "Purple>Lime",
+            "kind": "clip",
+            "ownerId": "Purple",
+            "targetId": "Lime",
+            "point": {
+                "x": 0.7841856479644775,
+                "y": -0.34100282192230227
+            }
+        },
+        {
+            "id": "DarkGreen>LightBlue",
+            "kind": "clip",
+            "ownerId": "DarkGreen",
+            "targetId": "LightBlue",
+            "point": {
+                "x": -0.6218103766441345,
+                "y": 1.6102527379989625
+            }
+        },
+        {
+            "id": "DarkGreen>Orange",
+            "kind": "clip",
+            "ownerId": "DarkGreen",
+            "targetId": "Orange",
+            "point": {
+                "x": 0.6218103766441345,
+                "y": 1.6102527379989625
+            }
+        },
+        {
+            "id": "Red>Blue",
+            "kind": "clip",
+            "ownerId": "Red",
+            "targetId": "Blue",
+            "point": {
+                "x": -0.5325296521186829,
+                "y": -1.0635724067687989
+            }
+        },
+        {
+            "id": "Lime>Blue",
+            "kind": "clip",
+            "ownerId": "Lime",
+            "targetId": "Blue",
+            "point": {
+                "x": 0.5275049209594727,
+                "y": -1.0541003942489625
+            }
+        }
+    ]
+}

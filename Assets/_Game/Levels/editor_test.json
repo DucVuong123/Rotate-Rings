@@ -1,0 +1,252 @@
+{
+    "version": 2,
+    "name": "Editor Test",
+    "tubeRadius": 0.07999999821186066,
+    "clipHalfSize": 0.10000000149011612,
+    "pieces": [
+        {
+            "id": "Orange",
+            "shape": "arc",
+            "color": "#FF8C1F",
+            "position": {
+                "x": -0.5299999713897705,
+                "y": 2.5899999141693117
+            },
+            "rotation": 65.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.6000000238418579,
+                "sweep": 260.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "LightBlue",
+            "shape": "arc",
+            "color": "#4CB8F2",
+            "position": {
+                "x": 0.6100000143051148,
+                "y": 1.6399999856948853
+            },
+            "rotation": 23.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.6000000238418579,
+                "sweep": 260.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "Purple",
+            "shape": "arc",
+            "color": "#8F42F2",
+            "position": {
+                "x": -0.5899999737739563,
+                "y": 0.75
+            },
+            "rotation": 125.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.6000000238418579,
+                "sweep": 260.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "Red",
+            "shape": "arc",
+            "color": "#ED3833",
+            "position": {
+                "x": -1.4500000476837159,
+                "y": -0.38999998569488528
+            },
+            "rotation": 181.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.6000000238418579,
+                "sweep": 260.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "DarkGreen",
+            "shape": "arc",
+            "color": "#0D995C",
+            "position": {
+                "x": 1.440000057220459,
+                "y": 0.38999998569488528
+            },
+            "rotation": 0.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.6000000238418579,
+                "sweep": 260.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "Lime",
+            "shape": "arc",
+            "color": "#78CC29",
+            "position": {
+                "x": 0.2199999988079071,
+                "y": -0.4699999988079071
+            },
+            "rotation": -33.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.6000000238418579,
+                "sweep": 260.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "Blue",
+            "shape": "arc",
+            "color": "#2952E6",
+            "position": {
+                "x": -0.5899999737739563,
+                "y": -1.7200000286102296
+            },
+            "rotation": 233.0,
+            "motion": "rotate",
+            "parameters": {
+                "radius": 0.6000000238418579,
+                "sweep": 260.0,
+                "length": 0.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        },
+        {
+            "id": "bar1",
+            "shape": "bar",
+            "color": "#FACC26",
+            "position": {
+                "x": 3.0,
+                "y": 2.0
+            },
+            "rotation": 0.0,
+            "motion": "slide",
+            "parameters": {
+                "radius": 0.0,
+                "sweep": 0.0,
+                "length": 3.0,
+                "length2": 0.0,
+                "bendRadius": 0.0,
+                "bendAngle": 0.0
+            }
+        }
+    ],
+    "links": [
+        {
+            "id": "LightBlue>Orange",
+            "kind": "clip",
+            "ownerId": "LightBlue",
+            "targetId": "Orange",
+            "point": {
+                "x": -0.06906715035438538,
+                "y": 2.2058892250061037
+            }
+        },
+        {
+            "id": "Purple>LightBlue",
+            "kind": "clip",
+            "ownerId": "Purple",
+            "targetId": "LightBlue",
+            "point": {
+                "x": 0.12807917594909669,
+                "y": 1.2825753688812256
+            }
+        },
+        {
+            "id": "Red>Purple",
+            "kind": "clip",
+            "ownerId": "Red",
+            "targetId": "Purple",
+            "point": {
+                "x": -0.9513431787490845,
+                "y": 0.27101027965545657
+            }
+        },
+        {
+            "id": "Purple>Lime",
+            "kind": "clip",
+            "ownerId": "Purple",
+            "targetId": "Lime",
+            "point": {
+                "x": -0.11187398433685303,
+                "y": 0.02985963225364685
+            }
+        },
+        {
+            "id": "DarkGreen>Lime",
+            "kind": "clip",
+            "ownerId": "DarkGreen",
+            "targetId": "Lime",
+            "point": {
+                "x": 0.7104034423828125,
+                "y": -0.12430581450462342
+            }
+        },
+        {
+            "id": "Lime>Blue",
+            "kind": "clip",
+            "ownerId": "Lime",
+            "targetId": "Blue",
+            "point": {
+                "x": -0.2637152075767517,
+                "y": -1.2164740562438965
+            }
+        },
+        {
+            "id": "pin1",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "bar1",
+            "point": {
+                "x": 2.4000000953674318,
+                "y": 2.0
+            }
+        },
+        {
+            "id": "pin2",
+            "kind": "pin",
+            "ownerId": "",
+            "targetId": "bar1",
+            "point": {
+                "x": 3.5999999046325685,
+                "y": 2.0
+            }
+        },
+        {
+            "id": "clip1",
+            "kind": "clip",
+            "ownerId": "bar1",
+            "targetId": "DarkGreen",
+            "point": {
+                "x": 1.440000057220459,
+                "y": 0.9900000095367432
+            }
+        }
+    ]
+}
